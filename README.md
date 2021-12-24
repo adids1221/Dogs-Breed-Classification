@@ -21,9 +21,12 @@ Flicker, Pond5, iStock images.
 
 ## Contributing
 Project status: Data cleaning, Machine deep learning training 
+
 Credits
+
 Author: adids1221, yuvalnsn
 
 Image Copyright (Images used in the project for the machine learning):
 Flicker, Pond5, iStock images, Stanford dogs dataset (for machine testing).
+
 This project is licensed under the terms of the MIT license and protected by Udacity Honor Code and Community Code of Conduct. See license and disclaimer.
