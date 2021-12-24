@@ -10,9 +10,13 @@ Flicker, Pond5, iStock images.
 
 ## Key learnings
 -Web data scraping
+
 -Web data crawling
+
 -Tensorflow deep learning
+
 -Convolutional Neural Networks
+
 -Machine learning image classification
 
 ## Contributing
