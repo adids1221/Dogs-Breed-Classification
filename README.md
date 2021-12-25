@@ -1,32 +1,27 @@
-# Dog-Breed-Identification
+# Dog-Breed-Identification #
 Data Science, Machine Learning Study Project 
 
-About
-Dog Breed Identification Prjoect is a part of Data Science, Machine Learning course for computer science bachelor degree.
-In this project the students will show data analytics, data crawling and scraping, EDA, machine learning skills as learned in the course.
-The idea for the project came after a long brainstorming and thinking outside the box in context of the course.
-In this project all the scrapping and the crawling data was for eductional purpose only and not for distribution of any kind, copyright for the images going to:
-Flicker, Pond5, iStock images.
+## About ##
+Dog’s breed identification project is made under the guidelines of the ‘Intro to data science’ course as a part of computer science bachelor.  
+The idea for the project came after long brainstorming since one of the main requirements of the project was scraping/crawling the data, using pre-made datasets was restricted.
 
-## Key learnings
--Web data scraping
+## Project planing ##
+* Data acquisition (using scraping, crawling and API)
+* EDA
+* Machine Learning
+* Deep learning
+* CNN
+* Image classification (using Tensorflow)
 
--Web data crawling
-
--Tensorflow deep learning
-
--Convolutional Neural Networks
-
--Machine learning image classification
-
-## Contributing
+## Contributing ##
 Project status: Data cleaning, Machine deep learning training 
 
 Credits
 
 Author: adids1221, yuvalnsn
 
-Image Copyright (Images used in the project for the machine learning):
-Flicker, Pond5, iStock images, Stanford dogs dataset (for machine testing).
+In this project all the data came from scrapping and the crawling is used for educational purpose only.  
+This data is NOT used for distribution of any kind or for any other purpose rather than for educational.  
+Copyright for the images goes to: Flicker, Pond5, iStock images.
 
 This project is licensed under the terms of the MIT license and protected by Udacity Honor Code and Community Code of Conduct. See license and disclaimer.
