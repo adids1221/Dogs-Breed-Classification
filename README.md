@@ -14,10 +14,7 @@ The idea for the project came after long brainstorming since one of the main req
 * Image classification (using Tensorflow)
 
 ## Contributing ##
-Project status: Data cleaning, Machine deep learning training 
-
-Credits
-
+Project status: Data cleaning, Machine deep learning training.  
 Author: adids1221, yuvalnsn
 
 In this project all the data came from scrapping and the crawling is used for educational purpose only.  
