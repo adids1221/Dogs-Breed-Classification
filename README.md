@@ -1,8 +1,8 @@
-# Dog-Breed-Identification #
+# Dog-Breed-Classification #
 Data Science, Machine Learning Study Project 
 
 ## About ##
-Dog’s breed identification project is made under the guidelines of the ‘Intro to data science’ course as a part of computer science bachelor.  
+Dog’s breed Classification project is made under the guidelines of the ‘Intro to data science’ course as a part of computer science bachelor.  
 The idea for the project came after long brainstorming since one of the main requirements of the project was scraping/crawling the data, using pre-made datasets was restricted.
 
 ## Project planing ##
