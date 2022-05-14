@@ -28,15 +28,18 @@ Data cleaning pipeline:
 
 <img width="999" alt="Screen Shot 2022-02-12 at 14 22 49" src="https://user-images.githubusercontent.com/72259329/153711155-c7836542-4f53-44d9-842d-19623e80cadd.png">
 
-**After ResNet we found out that our data has many drawings, which may make problems during classification, thus, we chose to detects the drawings using Entropy. As soon as we started to look for an entropy value threshold from which drawings will be detected, we faced another problem:
-Images with uniform background, tend to give as low entropy value as drawings.
-Thus, in the calculation of the entropy, we eliminated the most common value from each image (which should be elimination the background in images with a uniform background.**
+**After ResNet we found out that our data contains many drawings, which may create problems during classification, thus, we chose to detect the drawings using Entropy. As soon as we started to look for an entropy value threshold from which drawings will be detected, we faced another problem:
+Images with an uniform background, tend to give as low entropy value as drawings gave.
+Thus, in the calculation of the entropy, we eliminated the _most common value_ from each image (which, in most cases represents the background in images with a uniform background.**
 
 <img width="780" alt="Screen Shot 2022-02-12 at 14 20 32" src="https://user-images.githubusercontent.com/72259329/153711087-4de24d1f-70a7-4038-84bb-7f1d1f067ee0.png">
 
-**At third step, We calculated the avarage outliers amount for each class, how we did that?
-1.Calculate the mean of an image and flatten it
-2.Calculate the IQR 40-60 of that image 3.Sum all IQRs values of all images of the class and devide by number of images of that class After we had the avarage outliers of a class we decided to eliminate some of the classes due proccessing power limitaion. We took into account the avarages distribution and the distribition of images count of each class.**
+**At third step, we calculated the avarage outliers amount for each class. How we did that?
+1.Calculate the mean of an image and flatten it.
+2.Calculate the IQR 40-60 of that image.
+3.Sum all IQRs values of all images of the class and devide by number of images of that class 
+After we had the avarage outliers of a class we decided to eliminate some of the classes due proccessing power limitaion. 
+We took into account the avarages distribution and the distribition of images count of each class.**
 
 
 <img width="1020" alt="Screen Shot 2022-02-12 at 14 20 49" src="https://user-images.githubusercontent.com/72259329/153711097-8bf24375-b94d-4d83-8491-6b0a72876df6.png">
